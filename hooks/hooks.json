@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "matcher": {
+        "tool": "read_file",
+        "pattern": "(node_modules|vendor|\\.git|dist|build|package-lock\\.json|yarn\\.lock|cargo\\.lock)"
+      },
+      "action": {
+        "type": "block_with_exit_code_2",
+        "instruction": "Hard block: Direct full reading of lockfiles or vendor directories consumes excessive context tokens. Use targeted AST queries or grep instead."
+      }
+    }
+  ]
+}
