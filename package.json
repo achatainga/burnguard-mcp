@@ -1,6 +1,6 @@
 {
   "name": "@achatainga/burnguard-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pre-Execution Token Budget Firewall & Cost Telemetry Sentinel for AI Coding Agents",
   "type": "module",
   "main": "src/engine.mjs",
