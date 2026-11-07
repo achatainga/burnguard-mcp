@@ -1,5 +1,5 @@
 ---
-name: burnguard-mcp
+name: burnguard
 description: Pre-Execution Token Budget Firewall & Cost Telemetry Sentinel for AI Coding Agents.
 version: 1.0.0
 tags:
